@@ -186,7 +186,7 @@ const LeadFormSection = () => {
                 </button>
               </div>
             ) : (
-              <form onSubmit={handleSubmit} noValidate className="space-y-5">
+              <form onSubmit={handleSubmit} noValidate className="space-y-5 relative">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                   <div>
                     <Label htmlFor="lead-name" className="font-body text-xs uppercase tracking-wider text-muted-foreground">
